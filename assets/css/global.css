@@ -19,8 +19,12 @@ input, button, textarea, select { font: inherit }
 body { 
     text-align: center;
     font-family: sans-serif;
+    background-color: rgb(255, 185, 159);
 }
 
+h1, h2, h3, p {
+    color: rgb(255, 248, 239);
+}
 h1 {
     font-size: 78px;
     font-weight: normal;

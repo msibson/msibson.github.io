@@ -16,13 +16,24 @@ input, button, textarea, select { font: inherit }
 	
 /* Mobiles */
 @media (max-width: 767px) { body { padding: 12% 8% } }
+body {
+    /*background-color:lightcyan;*/
+
+    background-image: linear-gradient(to bottom right, lightcyan, rgb(175, 255, 182));
+    background-attachment: fixed;
+}
+h1,h2,h3 {
+    color: rgb(71, 32, 248);
+}
+
 
 h1 {
     font-size: 84px;
     text-align: center;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: -2px;
     margin-bottom: 32px;
+    font-family: georgia;
 }
 
 h2 {
@@ -40,4 +51,5 @@ p {
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
+    color: darkslateblue;
 }
